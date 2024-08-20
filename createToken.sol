@@ -14,17 +14,14 @@ pragma solidity ^0.8.7;
     5. Lastly, your burn function should have conditionals to make sure the balance of "sender" is greater than or equal 
        to the amount that is supposed to be burned.
 */
-
-contract MyToken {
+contract MineToken {
 
     // public variables here
     string public tokenName = "Lazer Coin";
     string public tokenAbbrv = "LC";
     uint public totalSupply = 10;
-
     // mapping variable here
     mapping (address => uint) public balances;
-
     // mint function
     function mint(address adrs, uint value) public{
         totalSupply +=value;
