@@ -2,7 +2,7 @@ Token Creator:
   Simple solidity smart contract to create a token and transact with it.
   
 Description:
-  In this smart contract, I created my Token "Lazer Coin" with abbrevation "LC" and total supply as 10 intially.
+  In this smart contract, I created my Token "Lazer Coin" with abbrevation "LC" and total supply as 12 intially.
   I can mint or burn LC in my wallet providing address and value of LC to be minted or burned using mint and burn functions as specified format.
   
 Getting Started:
@@ -31,7 +31,7 @@ Getting Started:
         // public variables here
         string public tokenName = "Lazer Coin";
         string public tokenAbbrv = "LC";
-        uint public totalSupply = 10;
+        uint public totalSupply = 12;
 
         // mapping variable here
         mapping (address => uint) public balances;
