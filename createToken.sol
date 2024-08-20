@@ -19,7 +19,7 @@ contract MineToken {
     // public variables here
     string public tokenName = "Lazer Coin";
     string public tokenAbbrv = "LC";
-    uint public totalSupply = 10;
+    uint public totalSupply = 12;
     // mapping variable here
     mapping (address => uint) public balances;
     // mint function
