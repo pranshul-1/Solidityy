@@ -55,5 +55,7 @@ Getting Started:
   Finally when contract is deployed, you can perform transaction and check for total supplies.
   
 Authors:
+
 Pranshul Pal
+
 @pranshul-1
